@@ -1,0 +1,21 @@
+# Data and anything derived from face images stays out of this repo.
+data/
+features/
+third_party/
+*.npz
+*.pth
+*.pt
+*.pkl
+*.onnx
+
+# Face images
+*.bmp
+*.jpg
+*.jpeg
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/

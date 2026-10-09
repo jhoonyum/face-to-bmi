@@ -1,0 +1,18 @@
+# face_to_bmi requirements
+# Python 3.11 (conda recommended)
+# Install with: pip install -r requirements.txt
+# After installing, also run: pip install "numpy<2" (pins numpy to 1.x for facenet-pytorch compatibility)
+
+torch==2.2.2
+torchvision==0.17.2
+facenet-pytorch==2.6.0
+opencv-python<4.12
+scikit-learn
+xgboost
+scipy
+pandas
+insightface
+onnxruntime
+streamlit
+Pillow
+numpy<2
